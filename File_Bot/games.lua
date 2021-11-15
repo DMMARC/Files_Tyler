@@ -23,12 +23,42 @@ Text_Games = [[
 *⋄⤂لعبه التفكير ↞اكتب حزوره*
 *⋄⤂لعبه معاني لسمايلات ↞ اكتب معاني*
 *⋄⤂لعبه الروليت الشهيره ↞ اكتب روليت*
+*⋄⤂لعبه اعلام ودول ↞ اكتب اعلام*
 *ٴ— — — — — — — — — — — — — —*
 [-Source Tyler .](t.me/D03DD)
 ]]
 send(msg.chat_id_, msg.id_,Text_Games) 
 end
-
+if text == "اعلام" or text == "اعلام ودول" or text == "اعلام و دول" or text == "دول" then
+if database:get(bot_id.."Lock:Games"..msg.chat_id_) then
+database:del(bot_id.."revor:Set:Country"..msg.chat_id_)
+Country_Rand = {"مصر","العراق","السعوديه","المانيا","تونس","الجزائر","فلسطين","اليمن","المغرب","البحرين","فرنسا","سويسرا","تركيا","انجلترا","الولايات المتحده","كندا","الكويت","ليبيا","السودان","سوريا"}
+name = Country_Rand[math.random(#Country_Rand)]
+database:set(bot_id.."revor:Country"..msg.chat_id_,name)
+name = string.gsub(name,"مصر","🇪🇬")
+name = string.gsub(name,"العراق","🇮🇶")
+name = string.gsub(name,"السعوديه","🇸🇦")
+name = string.gsub(name,"المانيا","🇩🇪")
+name = string.gsub(name,"تونس","🇹🇳")
+name = string.gsub(name,"الجزائر","🇩🇿")
+name = string.gsub(name,"فلسطين","🇵🇸")
+name = string.gsub(name,"اليمن","🇾🇪")
+name = string.gsub(name,"المغرب","🇲🇦")
+name = string.gsub(name,"البحرين","🇧🇭")
+name = string.gsub(name,"فرنسا","🇫🇷")
+name = string.gsub(name,"سويسرا","🇨🇭")
+name = string.gsub(name,"انجلترا","🇬🇧")
+name = string.gsub(name,"تركيا","🇹🇷")
+name = string.gsub(name,"الولايات المتحده","🇱🇷")
+name = string.gsub(name,"كندا","🇨🇦")
+name = string.gsub(name,"الكويت","🇰🇼")
+name = string.gsub(name,"ليبيا","🇱🇾")
+name = string.gsub(name,"السودان","🇸🇩")
+name = string.gsub(name,"سوريا","🇸🇾")
+send(msg.chat_id_, msg.id_,"• اسرع واحد يرسل اسم الدوله ~ {"..name.."}")
+return false
+end
+end
 if text == 'السمايلات' or text == 'سمايلات' then
 if database:get(bot_id..'Lock:Games'..msg.chat_id_) then
 database:del(bot_id..'Set:Sma'..msg.chat_id_)
