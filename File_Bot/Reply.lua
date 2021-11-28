@@ -71,8 +71,8 @@ TextReply = 'اخاف اروح بحالي😹🙊'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
-if text == 'تح' then
-TextReply = 'عـساس انـي مـيـت بيڪڪ دمـشـي لڪ😿😹'
+if text == 'من وين' then
+TextReply = 'من كوكب زمرده😿😹'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
