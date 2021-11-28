@@ -167,7 +167,7 @@ send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'كفو' then
-TextReply = 'ڪـفـو مـنڪ عمࢪيي💘'
+TextReply = 'كفاك الطيب ي الطيب💘'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
