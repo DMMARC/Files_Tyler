@@ -276,7 +276,7 @@ TextReply = 'هاذ مـطـوࢪ الـسوࢪس عمࢪيي'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
-if text == 'عمار' then
+if text == 'ammar' then
 TextReply = 'احلا مطور سورسات @XXUUU🥺💘'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
