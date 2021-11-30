@@ -51,7 +51,7 @@ Text = [[
 *✬~⪼ الجهات*
 *✬~⪼ الاشعارات*
 *ٴ•━━━━━━ ━━━━━━━•*
-[-Source Tyler](t.me/BOBBW)
+[-Source Tyler](t.me/D03DD)
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -104,7 +104,7 @@ Text = [[
 *✬~⪼ نسبه الحب*
 *✬~⪼ ءall*
  *ٴ•━━━━━━ ━━━━━━━•*
-[-Source Tyler](t.me/BOBBW)
+[-Source Tyler](t.me/D03DD)
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -132,7 +132,7 @@ Text = [[
 *✬~⪼ وصف*
 *✬~⪼ تكرار + عدد*
  *ٴ•━━━━━━ ━━━━━━━•*
-[-Source Tyler](t.me/BOBBW)
+[-Source Tyler](t.me/D03DD)
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -173,7 +173,7 @@ Text = [[
 *✬~⪼ الاوامر المضافه*
 *✬~⪼ ترتيب الاوامر*
 *ٴ•━━━━━━ ━━━━━━━•*
-[-Source Tyler](t.me/BOBBW)
+[-Source Tyler](t.me/D03DD)
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -214,7 +214,7 @@ Text = [[
 *✬~⪼ تغير امر الاوامر*
 *✬~⪼ تغير امر م1 ~ الئ م10*
 *ٴ•━━━━━━ ━━━━━━━•*
-[-Source Tyler](t.me/BOBBW)
+[-Source Tyler](t.me/D03DD)
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -277,7 +277,7 @@ Text = [[
 *✬~⪼ نسبه الكره*
 *✬~⪼ نسبه الانوثه*
 *ٴ•━━━━━━ ━━━━━━━•*
-[-Source Tyler](t.me/BOBBW)
+[-Source Tyler](t.me/D03DD)
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -326,7 +326,7 @@ Text = [[
 *✬~⪼ رفع + تنزيل ← الحاته*
 *✬~⪼ تاك للحاتات*
 *ٴ•━━━━━━ ━━━━━━━•*
-[-Source Tyler](t.me/BOBBW)
+[-Source Tyler](t.me/D03DD)
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -351,7 +351,7 @@ Text = [[
 *✬~⪼ اذاعه* 
 *✬~⪼ ردود المطور *
  *ٴ•━━━━━━ ━━━━━━━•*
-[-Source Tyler](t.me/BOBBW)
+[-Source Tyler](t.me/D03DD)
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -430,7 +430,7 @@ Text = [[
 *✬~⪼ تنظيف المشتركين*
 *✬~⪼ تنظيف الكروبات*
 *ٴ•━━━━━━ ━━━━━━━•*
-[-Source Tyler](t.me/BOBBW)
+[-Source Tyler](t.me/D03DD)
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -464,7 +464,7 @@ Text = [[
 *✬~⪼ شنو رئيك بهاي بالرد*
 *✬~⪼ تحب هذا*
 *ٴ•━━━━━━ ━━━━━━━•*
-[-Source Tyler](t.me/BOBBW)
+[-Source Tyler](t.me/D03DD)
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
